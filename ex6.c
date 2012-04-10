@@ -18,5 +18,8 @@ int main(int argc, char *argv[])
 	printf("My whole name is %s %c. %s.\n",
 			first_name, initial, last_name);
 			
+	printf("You are %o many miles away represented in octal.\n", distance);
+	printf("You are %x many miles away represented in hexadecimal.\n", distance);
+			
 	return 0;
 }
